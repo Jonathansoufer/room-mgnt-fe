@@ -18,9 +18,9 @@ You will also see any lint errors in the console.
 
 ### Some screenshots of the app
 
-![SignIn](src/assets/signIn.png "SignIn")
-![SignUp](src/assets/signUp.png "SignUp")
-![Rooms](src/assets/rooms.png "Rooms")
-![Appointment](src/assets/issueAppointment.png "Appointment")
-![PastDateAppointments](src/assets/pastDateAppointments.png "Past Date Appointments")
-![AppointmentsCancel](src/assets/appointmentsCancel.png "Appointments Cancel")
+![SignIn](./src/assets/img/signIn.png "SignIn")
+![SignUp](./src/assets/img/signUp.png "SignUp")
+![Rooms](./src/assets/img/rooms.png "Rooms")
+![Appointment](./src/assets/img/issueAppointment.png "Appointment")
+![PastDateAppointments](./src/assets/img/pastDateAppointments.png "Past Date Appointments")
+![AppointmentsCancel](./src/assets/img/appointmentsCancel.png "Appointments Cancel")
