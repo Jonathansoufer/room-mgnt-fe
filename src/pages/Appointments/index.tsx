@@ -53,7 +53,6 @@ const Appointments: React.FC = () => {
   return (
     <S.Container initial="initial" animate="animate" variants={fade}>
       <h2>Appointments</h2>
-
       <S.TimeWrapper variants={stagger}>
         {appointments.map((appointment) => (
           <>
@@ -85,6 +84,7 @@ const Appointments: React.FC = () => {
           </>
         ))}
       </S.TimeWrapper>
+      coke
     </S.Container>
   );
 };

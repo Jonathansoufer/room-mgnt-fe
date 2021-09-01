@@ -17,7 +17,7 @@ import { setContext } from "@apollo/client/link/context";
 import { USER } from "./utils/constants";
 import { ThemeProvider } from "styled-components";
 import { useTheme } from "./hooks/useTheme";
-import coca from "./styles/themes/coca";
+import coke from "./styles/themes/coke";
 import pepsi from "./styles/themes/pepsi";
 
 const getToken = () => {
@@ -57,7 +57,7 @@ function App() {
       <ApolloProvider client={client}>
         <AuthProvider>
           <ThemeStyleProvider>
-            <ThemeProvider theme={title === "coca" ? coca : pepsi}>
+            <ThemeProvider theme={title === "coke" ? coke : pepsi}>
               <Routes />
             </ThemeProvider>
             <GlobalStyle />

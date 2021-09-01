@@ -25,7 +25,7 @@ const SignUp: React.FC = () => {
     try {
       const createUserValidationSchema = yup.object().shape({
         email: yup.string().email().required(),
-        company: yup.string().required("coca" || "pepsi"),
+        company: yup.string().required("coke" || "pepsi"),
         name: yup.string().required(),
         password: yup.string().required(),
       });
@@ -108,7 +108,7 @@ const SignUp: React.FC = () => {
               <Input
                 value={values.company}
                 onChange={handleChange}
-                placeholder="Company (coca or pepsi)"
+                placeholder="Company (coke or pepsi)"
                 type="company"
                 name="company"
                 icon={FiBriefcase}
